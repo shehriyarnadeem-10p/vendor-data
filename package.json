@@ -1,0 +1,26 @@
+{
+  "name": "vendor-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node \"build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shehriyarnadeem-10p/vendor-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shehriyarnadeem-10p/vendor-data/issues"
+  },
+  "homepage": "https://github.com/shehriyarnadeem-10p/vendor-data#readme",
+  "dependencies": {
+    "@aws-sdk/util-dynamodb": "^3.569.0",
+    "aws-sdk": "^2.1613.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.4.5"
+  }
+}
